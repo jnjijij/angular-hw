@@ -1,0 +1,4 @@
+<h1>App</h1>
+
+<app-users (userClick)="onUserClick($event)"></app-users>
+<app-posts *ngIf="selectedUserId !== null" [userId]="selectedUserId"></app-posts>
